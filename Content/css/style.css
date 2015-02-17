@@ -1,0 +1,211 @@
+body{
+	background-color: black;
+	margin: 10px;
+	color:white;
+	font-family: 'Yanone Kaffeesatz', sans-serif!important;
+}
+
+.content {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	width: 960px;
+	height: 100%;
+	position: relative;
+}
+
+h1{
+	font-size:36pt;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	position: relative;
+	float: left;
+	clear: both;
+	width: 100%;
+}
+
+h2{
+	font-size:24pt;
+	text-align: left;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	position: relative;
+	float: left;
+	clear: both;
+	width: 100%;
+}
+
+table{
+	border-spacing: 5px;
+}
+
+td, th{
+	text-align:center;
+	font-size:16pt;
+	line-height: 35px;
+}
+
+td a{
+	text-decoration: underline;
+	color:white;
+}
+
+table, th, td {
+	border: 1px solid white;
+	border-collapse: collapse;
+}
+
+progress {  
+	height: 20px;
+	width: 100%;
+	background-color: white;
+	border-radius: 2px; 
+}  
+progress::-webkit-progress-bar {  
+	height: 20px;
+	width: 100%;
+	background-color: white;
+	border-radius: 2px; 
+}  
+progress::-webkit-progress-value {  
+	height: 20px;
+	width: 100%;
+	background-color: gray;
+	border-radius: 2px; 
+}  
+progress::-moz-progress-bar {  
+	height: 20px;
+	width: 100%;
+	background-color: white;
+	border-radius: 2px; 
+}  
+
+#controls{
+	position: relative;
+	float:left;
+	clear:both;
+	display: none;
+	width: 100%;
+}
+
+#box-insta{
+	position:relative;
+	float:left;
+	display: none;
+}
+
+#options{
+	position: relative;
+	float: left;
+	text-align: center;
+	width: 100%;
+	margin-top: 10px;
+	font-size: 16pt;
+}
+
+#options span{
+	margin-right: 10px;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+#generated{
+	position: relative;
+	float: left;
+	margin-top: 10px;
+	height: 50px;
+	border: 1px solid white;
+	width: 100%;
+	line-height: 50px;
+	text-align: center;
+	display: none;
+	font-size: 18pt;
+}
+
+.click{
+	position:relative;
+	float:left;
+	margin-right: 10px;
+	cursor:pointer;
+}
+
+.click-list{
+
+	cursor:pointer;
+	margin-right: 10px;
+	text-decoration: underline;
+}
+
+.big{
+	font-size:28pt;
+}
+
+.progress-label{
+	position: relative;
+	float:left;
+	margin-right: 5px;
+}
+
+#box-controls {
+	position: relative;
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+	/* margin-left: 215px; */
+	margin-bottom: 30px;
+}
+
+#box-progress{
+	margin-top:20px;
+}
+
+#who, #now, #social{
+	position:relative;
+	float:left;
+	clear:both;
+	text-align: center;
+	width: 100%;
+	display: none;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#loading{
+	position:relative;
+	float:left;
+	clear:both;
+	text-align: center;
+	width: 100%;
+	display: none;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	display: none;
+}
+
+#profile img{
+	position: relative;
+	margin-left: 330px;
+	height: 300px;
+	width: 300px;
+	border: 1px solid;
+	margin-top: 17px;
+	margin-bottom: 20px;
+}
+
+#img-in img{
+	position: relative;
+	margin-left: 330px;
+	height: 300px;
+	width: 300px;
+	border: 1px solid;
+	margin-top: 17px;
+	margin-bottom: 20px;
+}
+
+#player_wrapper{
+	position:absolute!important;
+	top:-9999px;
+}
