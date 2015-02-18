@@ -23,25 +23,25 @@ And now you are able to start the system accessing your index.php file.
 The system reconize, until now, the same name of music, so you need to tweet
 
 ```
-@tocaessa [nome do artista] - [nome da música]
+@tocaessa [artist name] - [music name]
 ```
 
 or 
 
 ```
-@tocaessa #play[numero da música]
+@tocaessa #play[music number]
 ```
 
 To ask for a musica in the instagram, just, follow:
 
 ```
-#tocaessa [nome do artista] - [nome da música]
+#tocaessa [artist name] - [music name]
 ```
 
 or 
 
 ```
-#tocaessa #play[numero da música]
+#tocaessa #play[music number]
 ```
 
 #How the system works?#
@@ -60,12 +60,17 @@ If the list of requests finish, random songs will be performed until a new entry
 
 The system does not use any database until now, just store the information in some files:
 
-*_Data/in_last_id.txt_ is the control of the last id checked in instagram, cleaning this, the system will fill the row with all instagrams requests from the begining of requests;
-*_Data/row.txt_ is the row of musics that will be played;
-*_Data/tw_last_id.txt_ is the control of the last id checked in tweets, cleaning this, the system will fill the row with all tweets requests from the begining of requests;
-*_Data/unidentified.txt_ stores all unidentifieds requests;
+* _Data/in_last_id.txt_ is the control of the last id checked in instagram, cleaning this, the system will fill the row with all instagrams requests from the begining of requests;
+
+* _Data/row.txt_ is the row of musics that will be played;
+* _Data/tw_last_id.txt_ is the control of the last id checked in tweets, cleaning this, the system will fill the row with all tweets requests from the begining of requests;
+* _Data/unidentified.txt_ stores all unidentifieds requests;
 
 
-*_Logs/errors.txt_ store any system error;
-*_Logs/in_requests.txt_ store all instragram requests;
-*_Logs/tw_requests.txt_ store all twiter requests;
+* _Logs/errors.txt_ store any system error;
+* _Logs/in_requests.txt_ store all instragram requests;
+* _Logs/tw_requests.txt_ store all twiter requests;
+
+#Showing the list of musics#
+
+The system can show the number indexer of all musics in the root file _list.php_ this list can show the links to tweet or insta an music request;
