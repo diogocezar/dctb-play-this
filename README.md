@@ -23,25 +23,25 @@ And now you are able to start the system accessing your index.php file.
 The system reconize, until now, the same name of music, so you need to tweet
 
 ```
-@tocaessa [artist name] - [music name]
+@youtweetaccount [artist name] - [music name]
 ```
 
 or 
 
 ```
-@tocaessa #play[music number]
+@youtweetaccount #play[music number]
 ```
 
 To ask for a musica in the instagram, just, follow:
 
 ```
-#tocaessa [artist name] - [music name]
+#somehashtag [artist name] - [music name]
 ```
 
 or 
 
 ```
-#tocaessa #play[music number]
+#somehashtag #play[music number]
 ```
 
 #How the system works?#
