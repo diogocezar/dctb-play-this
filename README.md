@@ -32,7 +32,7 @@ or
 @youtweetaccount #play[music number]
 ```
 
-To ask for a musica in the instagram, just, follow:
+To ask for a music in the instagram, just, follow:
 
 ```
 #somehashtag [artist name] - [music name]
